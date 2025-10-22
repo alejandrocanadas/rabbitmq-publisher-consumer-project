@@ -1,0 +1,19 @@
+# Archivos de compilación
+target/
+build/
+
+# Archivos temporales
+*.log
+*.tmp
+
+# Configuración local
+*.iml
+.idea/
+*.class
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Maven Wrapper
+!.mvn/wrapper/maven-wrapper.jar
