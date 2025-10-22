@@ -6,9 +6,9 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class MessageListener {
-    // Escucha la cola "cola.estado" automáticamente
+    
     @RabbitListener(queues = "cola.estado")
     public void recibirMensaje(String message) {
-        System.out.println("📥 Mensaje recibido desde la cola: " + message);
+        System.out.println(" Mensaje recibido desde la cola: " + message);
     }
 }
